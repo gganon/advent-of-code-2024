@@ -1,12 +1,6 @@
 import { readInput } from '../util/input';
-import { insertInSortedArray } from '../util/sort';
 
 const input = readInput('day1.txt').toString().trim();
-
-type ElfWithCalories = {
-  elfNumber: number;
-  totalCalories: number;
-};
 
 const numbers: number[][] = [[], []];
 

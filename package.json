@@ -7,7 +7,8 @@
     "prepare": "husky install",
     "format": "prettier --write src",
     "run-ts": "node --experimental-specifier-resolution=node --loader ts-node/esm",
-    "day1": "yarn run-ts src/day1"
+    "day1": "yarn run-ts src/day1",
+    "day2": "yarn run-ts src/day2"
   },
   "dependencies": {
     "@types/lodash": "^4.14.191",
